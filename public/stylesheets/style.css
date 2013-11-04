@@ -1,0 +1,35 @@
+* {
+        font-family: 'Open Sans', sans-serif;
+        /*border: 1px solid black;*/
+}
+
+a:link {text-decoration:none; color: gray;}
+a:visited {text-decoration:none; color: gray;}
+a:hover {text-decoration:none; color: black; font-size: 26px;}
+a:active {text-decoration:none; color: gray;}
+
+hr { height:-100px; visibility:hidden; margin-bottom:-50px; }
+
+body {
+        min-width: 1000px;
+}
+
+.sidebar {
+        text-align: right;
+        position: absolute;
+        left: 20px;
+        top: 50px;
+}
+.banner {
+        font-size: 50px;
+        margin-top: -20px;
+}
+
+.mainblock {
+        margin: auto;
+        margin-top: 100px;
+        height: 100px;
+        width: 600px;
+        padding-left: 100px;
+        font-size: 30px;
+}
